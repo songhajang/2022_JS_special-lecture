@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화작성예매</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="createSeat()">
+    <h1>좌석예매 시스템</h1>
+    <div id="app">
+        <h3>선택한 좌석번호</h3>
+        <div id="selected_seats">
+        </div>
+        <div id="seats">
+            <h3>좌석</h3>
+        </div>
+    </div>
+    <div id="bottom">
+        <button id="confirmButton" onclick="heandleSoldout()">예약완료</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

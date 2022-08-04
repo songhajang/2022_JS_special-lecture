@@ -1,0 +1,25 @@
+// 이런식으로 데이터 구성을 하면 됨
+const schools = [
+
+    {
+        id: 's001',
+        title:'컴과고',
+        conferenceRooms: [
+
+            {
+                id: 'r001',
+                title: '11A컴퍼런스룸',
+                options: {
+                    tv: false,
+                    tel:false,
+                    board:true
+                }
+            }
+        ]
+    }
+]
+/**
+ * CDN : 콘텐츠 전송 네트워크
+ * 캐싱서버
+ * 정적인 데이터를 주고 받을 수 있는 서버
+ */
